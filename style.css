@@ -2,7 +2,7 @@
 
 :root{
     --cor-botao: #FFB800;
-    --cor-botao-foco: #FFB800;
+    --cor-botao-foco: #FF900E;
 }
 
 *{
@@ -102,20 +102,22 @@ body{
 
     width: 419px;
     height: 109px;
-    left: 178px;
-    top: 573px;
+    background-color: var(--cor-botao);
     border: none;
-    background: #FFB800;
     border-radius: 30px;
-
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 
+}
+
+.botao:hover{
+    background-color: var(--cor-botao-foco);
 }
 
 .box-1{
